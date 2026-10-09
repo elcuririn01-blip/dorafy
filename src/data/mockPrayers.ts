@@ -1,0 +1,46 @@
+import { PrayerRequest } from '../types';
+
+export const INITIAL_PRAYERS: PrayerRequest[] = [
+  {
+    id: 'prayer-1',
+    title: 'Restauração da saúde da minha mãe',
+    description: 'Orando pelos exames desta semana e para que os médicos tenham sabedoria no diagnóstico. Que a paz de Cristo encha o coração dela.',
+    category: 'Família',
+    createdAt: '2026-10-04',
+    isAnswered: false,
+    timesPrayed: 12,
+    lastPrayedAt: 'Hoje',
+  },
+  {
+    id: 'prayer-2',
+    title: 'Direcionamento no trabalho e novo projeto',
+    description: 'Sabedoria para tomar decisões éticas e produtivas na nova liderança da equipe, servindo com humildade e excelência.',
+    category: 'Trabalho',
+    createdAt: '2026-10-01',
+    isAnswered: false,
+    timesPrayed: 8,
+    lastPrayedAt: 'Ontem',
+  },
+  {
+    id: 'prayer-3',
+    title: 'Vida espiritual do grupo de jovens',
+    description: 'Para que haja sede genuína pela Palavra e corações inflamados pelo amor a Deus e cuidado com o próximo na comunidade.',
+    category: 'Espiritual',
+    createdAt: '2026-09-20',
+    isAnswered: false,
+    timesPrayed: 24,
+    lastPrayedAt: 'Hoje',
+  },
+  {
+    id: 'prayer-4',
+    title: 'Aprovação no concurso e sustento financeiro',
+    description: 'Agradeço a Deus pois após 6 meses de oração e dedicação, a resposta positiva chegou com paz e porta aberta!',
+    category: 'Gratidão',
+    createdAt: '2026-08-15',
+    isAnswered: true,
+    answeredDate: '2026-09-30',
+    testimony: 'Deus supriu além do que pedimos ou pensamos. Toda a glória seja dada ao Senhor!',
+    timesPrayed: 45,
+    lastPrayedAt: '2026-09-30',
+  },
+];
